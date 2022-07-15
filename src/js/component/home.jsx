@@ -19,6 +19,9 @@ function Home () {
 			<div 
 			onClick={() => setSelectedColor("green")}
 			className={"light green"+((selectedColor === "green") ? " glow-green" : "")}></div>
+			<div 
+			onClick={() => setSelectedColor("purple")}
+			className={"light purple"+((selectedColor === "purple") ? " glow-purple" : "")}></div>
 		</div>
 	);
 };
